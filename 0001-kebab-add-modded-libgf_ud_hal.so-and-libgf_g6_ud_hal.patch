@@ -1,0 +1,31 @@
+From 09f001c0039f9071b73c268862d71e2bce96a753 Mon Sep 17 00:00:00 2001
+From: Christian Oder <myself5@carbonrom.org>
+Date: Mon, 11 Jan 2021 07:25:09 +0100
+Subject: [PATCH] kebab: add modded libgf_ud_hal.so and libgf_g6_ud_hal.so
+
+sed -i 's/vendor.boot.verifiedbootstate/vendor.boot.fingerprintbstate/g;' proprietary/vendor/lib64/libgf_g6_ud_hal.so proprietary/vendor/lib64/libgf_ud_hal.so
+---
+ .../vendor/lib64/libgf_g6_ud_hal.so           | Bin 384712 -> 384712 bytes
+ .../proprietary/vendor/lib64/libgf_ud_hal.so  | Bin 384656 -> 384656 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/kebab/proprietary/vendor/lib64/libgf_g6_ud_hal.so b/kebab/proprietary/vendor/lib64/libgf_g6_ud_hal.so
+index 178a2e8728f30750a5e104d2f6ab63a799bed4c4..f41bba3acd2f2a73bbebff56e146939f6ead130e 100644
+GIT binary patch
+delta 44
+xcmX@HSNz0Y@rD-0ElgZoJZYJE>8V8pMVWaeN$p}>OhC*G#4OvzxL7w`0RU(74t@Xt
+
+delta 44
+xcmX@HSNz0Y@rD-0ElgZoJY}gxnQ57+DM|VHCGBEdOhC*G#4OvzxL7w`0RU%V4t4+l
+
+diff --git a/kebab/proprietary/vendor/lib64/libgf_ud_hal.so b/kebab/proprietary/vendor/lib64/libgf_ud_hal.so
+index 7fc41b89910ed74002e3f8c93c957255822d5037..d31520ca2f9d04c1147ab13805522405de91a6ae 100644
+GIT binary patch
+delta 44
+xcmbQRSA4==@rD-0ElfsSJZYJE>8V8pMVWaeN$qxAOhC*G#4OwGxLAX(003a44t4+l
+
+delta 36
+pcmbQRSA4==@rD-0ElfsS(_QZ~3bng%F#$0%5VLG|;bQf<0s!U?3qSw>
+
+--
+2.25.1
